@@ -1,5 +1,5 @@
 #Gulp Starter
-A set of starter files for a Gulp project.
+A starter structure for a Gulp-based theme.
 
 ### Requirements
  - Node.js
