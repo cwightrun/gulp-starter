@@ -6,6 +6,7 @@ A starter structure for a Gulp-based theme.
  - Gulp installed globally
 
 Once Node.js is installed, you can use NPM to install gulp globally with the following:
+
 ```$ npm install -g gulp```
 
 ###Instructions
