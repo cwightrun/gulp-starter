@@ -22,9 +22,7 @@ gulp.task('imagemin', function() {
 gulp.task('sass', function() {
   gulp.src('sass/**/*.scss')    
     .pipe(sourcemaps.init()) // Initializes sourcemaps
-    .pipe(sass({
-      errLogToConsole: true,
-      }))
+    .pipe(sass())
     .pipe(prefix('last 2 versions', '> 1%', 'ie 8'))
     .pipe(sourcemaps.write()) // Writes sourcemaps into the CSS file
     .pipe(gulp.dest('css'));
